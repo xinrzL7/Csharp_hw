@@ -13,11 +13,17 @@ namespace asmnt_Homepage
 {
     public partial class frmGuess : Form
     {
+        public string GuessRange
+        {
+            get { return labRange.Text; }
+            set { labRange.Text = value; }
+        }
         public int gsAnswer;
         public void  GenerateNumber()
         {
             Random random = new Random();
             gsAnswer = random.Next(1, 101);
+            
         }
         
         public frmGuess()
@@ -25,6 +31,7 @@ namespace asmnt_Homepage
             InitializeComponent();
             GenerateNumber();
         }
+        
         private void btnAnswer_Click(object sender, EventArgs e)
         {
             MessageBox.Show($"The answer is {gsAnswer}.");
@@ -32,8 +39,10 @@ namespace asmnt_Homepage
 
         private void btnGuess_Click(object sender, EventArgs e)
         {
-            frmInputBox inputbox = new frmInputBox();
+            frmInputBox inputbox = new frmInputBox(this);
             inputbox.Show();
         }
+
+        
     }
 }

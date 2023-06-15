@@ -36,22 +36,22 @@
             // labRange
             // 
             this.labRange.AutoSize = true;
-            this.labRange.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.labRange.BackColor = System.Drawing.Color.Transparent;
             this.labRange.Font = new System.Drawing.Font("Century", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labRange.ForeColor = System.Drawing.Color.CadetBlue;
-            this.labRange.Location = new System.Drawing.Point(12, 93);
+            this.labRange.ForeColor = System.Drawing.Color.PaleTurquoise;
+            this.labRange.Location = new System.Drawing.Point(32, 48);
             this.labRange.Name = "labRange";
             this.labRange.Size = new System.Drawing.Size(694, 38);
             this.labRange.TabIndex = 0;
             this.labRange.Text = "Please select a number between 1 and 100.";
-            this.labRange.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labRange.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btnGuess
             // 
             this.btnGuess.BackColor = System.Drawing.Color.PowderBlue;
-            this.btnGuess.Font = new System.Drawing.Font("Century", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuess.Font = new System.Drawing.Font("Century", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuess.ForeColor = System.Drawing.Color.CadetBlue;
-            this.btnGuess.Location = new System.Drawing.Point(400, 251);
+            this.btnGuess.Location = new System.Drawing.Point(39, 186);
             this.btnGuess.Name = "btnGuess";
             this.btnGuess.Size = new System.Drawing.Size(145, 58);
             this.btnGuess.TabIndex = 1;
@@ -62,11 +62,11 @@
             // btnAnswer
             // 
             this.btnAnswer.BackColor = System.Drawing.Color.PowderBlue;
-            this.btnAnswer.Font = new System.Drawing.Font("Century", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnswer.Font = new System.Drawing.Font("Century", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAnswer.ForeColor = System.Drawing.Color.CadetBlue;
-            this.btnAnswer.Location = new System.Drawing.Point(580, 251);
+            this.btnAnswer.Location = new System.Drawing.Point(216, 186);
             this.btnAnswer.Name = "btnAnswer";
-            this.btnAnswer.Size = new System.Drawing.Size(268, 58);
+            this.btnAnswer.Size = new System.Drawing.Size(231, 58);
             this.btnAnswer.TabIndex = 2;
             this.btnAnswer.Text = "Show Answer";
             this.btnAnswer.UseVisualStyleBackColor = false;
@@ -76,11 +76,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.ClientSize = new System.Drawing.Size(872, 344);
+            this.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.ClientSize = new System.Drawing.Size(793, 269);
             this.Controls.Add(this.btnAnswer);
             this.Controls.Add(this.btnGuess);
             this.Controls.Add(this.labRange);
+            this.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmGuess";
             this.Text = "Guess Number";
             this.ResumeLayout(false);
