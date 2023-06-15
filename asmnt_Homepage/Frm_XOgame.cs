@@ -85,7 +85,6 @@ namespace asmnt_Homepage
         }
         private void btnReset_Click(object sender, EventArgs e)
         {
-            //btnReset.Text = "Reset(&R)";
             ResetMethod();
         }
 
