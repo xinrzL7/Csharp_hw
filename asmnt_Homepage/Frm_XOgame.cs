@@ -29,6 +29,7 @@ namespace asmnt_Homepage
             };
         }
         int nr = 0;
+
         
         private void btn_Click(object sender, EventArgs e)
         {
@@ -54,18 +55,25 @@ namespace asmnt_Homepage
             (btn3.Text == btn5.Text && btn5.Text == btn7.Text && btn3.Enabled == false))
             {
                 if (nr % 2 != 0)
+                {
+                    ResetMethod();
                     MessageBox.Show("X wins.");
+                }
                 else
+                {
+                    ResetMethod();
                     MessageBox.Show("O wins.");
+                }
             }
-            else if(nr==9) 
+            else if (nr == 9) 
+            {
+                ResetMethod();
                 MessageBox.Show("Drew :(.");
+            }
         }
-
-        private void btnReset_Click(object sender, EventArgs e)
+        public void ResetMethod()
         {
-            btnReset.Text = "Reset(&R)";
-            foreach (Control item in Controls) 
+            foreach (Control item in Controls)
             {
                 if (item != btnReset && item != btnEsc && item != labXO)
                 {
@@ -74,6 +82,11 @@ namespace asmnt_Homepage
                 }
             }
             nr = 0;
+        }
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            //btnReset.Text = "Reset(&R)";
+            ResetMethod();
         }
 
         private void btnEsc_Click(object sender, EventArgs e)
