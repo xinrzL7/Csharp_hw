@@ -54,6 +54,7 @@
             // 
             // btnCencel
             // 
+            this.btnCencel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCencel.Font = new System.Drawing.Font("Century", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCencel.Location = new System.Drawing.Point(387, 111);
             this.btnCencel.Name = "btnCencel";
@@ -61,12 +62,13 @@
             this.btnCencel.TabIndex = 2;
             this.btnCencel.Text = "Cancel";
             this.btnCencel.UseVisualStyleBackColor = true;
+            this.btnCencel.Click += new System.EventHandler(this.btnCencel_Click);
             // 
             // labPrompt
             // 
             this.labPrompt.AutoSize = true;
             this.labPrompt.Font = new System.Drawing.Font("Century", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labPrompt.Location = new System.Drawing.Point(12, 62);
+            this.labPrompt.Location = new System.Drawing.Point(29, 72);
             this.labPrompt.Name = "labPrompt";
             this.labPrompt.Size = new System.Drawing.Size(341, 33);
             this.labPrompt.TabIndex = 3;
@@ -81,7 +83,9 @@
             this.Controls.Add(this.btnCencel);
             this.Controls.Add(this.txtInput);
             this.Controls.Add(this.btnEnter);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frmInputBox";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Guess";
             this.ResumeLayout(false);
             this.PerformLayout();

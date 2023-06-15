@@ -12,53 +12,63 @@ namespace asmnt_Homepage
 {
     public partial class frmInputBox : Form
     {
+        
         public frmInputBox()
         {
             InitializeComponent();
         }
-        public int AnswerNumber;
-        public int GuessNumber;
-        public int MaxNumber = 100;
-        public int MinNumber = 1;
-        public  void GenerateNumber()
-        {
-            Random random = new Random();
-            AnswerNumber = random.Next(1, 101);
-        }
-        frmGuess gs =  new frmGuess();
+        frmGuess gs = new frmGuess();
+        int ibAnswer;
+        int ibInput;
+        int MaxNumber=100;
+        int MinNumber=1;
+
         private void btnEnter_Click(object sender, EventArgs e)
         {
-            if (int.TryParse(txtInput.Text, out GuessNumber))
+            ibAnswer = gs.gsAnswer;
+            if (int.TryParse(txtInput.Text, out ibInput))
             {
-                if (GuessNumber <= 100 || GuessNumber >= 1)
+                if (ibInput <= 100 && ibInput >=1)
                 {
-                    if (GuessNumber != AnswerNumber)
+                    if (ibInput != ibAnswer)
                     {
-                        if (GuessNumber < AnswerNumber)
+                        if (ibInput < ibAnswer)
                         {
-                            MinNumber = GuessNumber;
-                            //gs.GuessRange =
-                                //$"Too small. Select a number between {GuessNumber} and {MaxNumber}";
+                            if(ibInput > MinNumber)
+                            {
+                                MinNumber = ibInput;
+                                MessageBox.Show($"Too small. Input a number between {MinNumber} and {MaxNumber}.");
+                            }
+                            else
+                                MessageBox.Show($"Too small. Input a number between {MinNumber} and {MaxNumber}.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
-                        else if (GuessNumber > AnswerNumber) 
+                        else if (ibInput > ibAnswer)
                         {
-                            MaxNumber = AnswerNumber;
-                            //gs.GuessRange = 
-                                //$"Too large. Select a number between {MinNumber} to {GuessNumber}";
+                            if (ibInput < MaxNumber) 
+                            {
+                                MaxNumber = ibInput;
+                                MessageBox.Show($"Too large. Input a number between {MinNumber} and {MaxNumber}");
+                            }
+                            else
+                                MessageBox.Show($"Input a number between {MinNumber} and {MaxNumber}!!!","Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
                     else
-                    { 
-                        MessageBox.Show($"Congradulations. You're right, the answer is {GuessNumber}."); 
-                        GenerateNumber();
+                    {
+                        MessageBox.Show($"Congradulations. You're right, the answer is {ibInput}.");
+                        gs.GenerateNumber();
                     }
                 }
-
                 else
-                    MessageBox.Show("請輸入範圍1-100內的數字");
+                    MessageBox.Show("Please input a number between 1 and 100!!!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
                 MessageBox.Show("請輸入整數");
+        }
+
+        //按下後就重新開始遊戲
+        private void btnCencel_Click(object sender, EventArgs e)
+        {
             this.Close();
         }
     }
