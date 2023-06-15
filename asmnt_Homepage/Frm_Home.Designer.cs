@@ -42,6 +42,7 @@
             this.btnPOS = new System.Windows.Forms.Button();
             this.btnLoan = new System.Windows.Forms.Button();
             this.btnHello = new System.Windows.Forms.Button();
+            this.btnmyPaint = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.sc1)).BeginInit();
             this.sc1.Panel1.SuspendLayout();
             this.sc1.Panel2.SuspendLayout();
@@ -99,6 +100,7 @@
             // 
             this.sc2.Panel1.AutoScroll = true;
             this.sc2.Panel1.BackColor = System.Drawing.SystemColors.GrayText;
+            this.sc2.Panel1.Controls.Add(this.btnmyPaint);
             this.sc2.Panel1.Controls.Add(this.btnGuess);
             this.sc2.Panel1.Controls.Add(this.btnPicViewer);
             this.sc2.Panel1.Controls.Add(this.btnPaint);
@@ -132,7 +134,7 @@
             this.btnGuess.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuess.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuess.ForeColor = System.Drawing.Color.Ivory;
-            this.btnGuess.Location = new System.Drawing.Point(21, 414);
+            this.btnGuess.Location = new System.Drawing.Point(21, 455);
             this.btnGuess.Name = "btnGuess";
             this.btnGuess.Size = new System.Drawing.Size(207, 35);
             this.btnGuess.TabIndex = 15;
@@ -152,7 +154,7 @@
             this.btnPicViewer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPicViewer.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPicViewer.ForeColor = System.Drawing.Color.Ivory;
-            this.btnPicViewer.Location = new System.Drawing.Point(21, 373);
+            this.btnPicViewer.Location = new System.Drawing.Point(21, 414);
             this.btnPicViewer.Name = "btnPicViewer";
             this.btnPicViewer.Size = new System.Drawing.Size(207, 35);
             this.btnPicViewer.TabIndex = 14;
@@ -340,6 +342,26 @@
             this.btnHello.UseVisualStyleBackColor = false;
             this.btnHello.Click += new System.EventHandler(this.btnHello_Click);
             // 
+            // btnmyPaint
+            // 
+            this.btnmyPaint.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnmyPaint.BackColor = System.Drawing.Color.Transparent;
+            this.btnmyPaint.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnmyPaint.FlatAppearance.BorderSize = 0;
+            this.btnmyPaint.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnmyPaint.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.btnmyPaint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnmyPaint.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmyPaint.ForeColor = System.Drawing.Color.Ivory;
+            this.btnmyPaint.Location = new System.Drawing.Point(21, 373);
+            this.btnmyPaint.Name = "btnmyPaint";
+            this.btnmyPaint.Size = new System.Drawing.Size(207, 35);
+            this.btnmyPaint.TabIndex = 16;
+            this.btnmyPaint.Text = "myPaint";
+            this.btnmyPaint.UseVisualStyleBackColor = false;
+            this.btnmyPaint.Click += new System.EventHandler(this.btnmyPaint_Click);
+            // 
             // frmHomePage
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -379,6 +401,7 @@
         private System.Windows.Forms.Button btnXOgame;
         private System.Windows.Forms.Button btnGuess;
         private System.Windows.Forms.Button btnPicViewer;
+        private System.Windows.Forms.Button btnmyPaint;
     }
 }
 

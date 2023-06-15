@@ -48,7 +48,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox6.Image = global::asmnt_Homepage.Properties.Resources.cm;
+            this.pictureBox6.Image = global::asmnt_Homepage.Properties.Resources.cillian;
             this.pictureBox6.Location = new System.Drawing.Point(783, 294);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(351, 228);
@@ -63,7 +63,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox5.Image = global::asmnt_Homepage.Properties.Resources.MRW_I_accidentally_fart_near_a_cute_girl__and_she_smiles_at_me_and_farts_back___Imgur;
+            this.pictureBox5.Image = global::asmnt_Homepage.Properties.Resources.joey;
             this.pictureBox5.Location = new System.Drawing.Point(402, 294);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(351, 228);
@@ -78,7 +78,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox4.Image = global::asmnt_Homepage.Properties.Resources.Insert_card_as_shown___Imgur;
+            this.pictureBox4.Image = global::asmnt_Homepage.Properties.Resources.Insert_card;
             this.pictureBox4.Location = new System.Drawing.Point(16, 294);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(351, 228);
@@ -93,7 +93,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox3.Image = global::asmnt_Homepage.Properties.Resources.BKZ9eqC;
+            this.pictureBox3.Image = global::asmnt_Homepage.Properties.Resources.big_disappoint;
             this.pictureBox3.Location = new System.Drawing.Point(783, 33);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(351, 228);
@@ -108,7 +108,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox2.Image = global::asmnt_Homepage.Properties.Resources._0Oyoljg;
+            this.pictureBox2.Image = global::asmnt_Homepage.Properties.Resources.scr1;
             this.pictureBox2.Location = new System.Drawing.Point(402, 33);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(351, 228);
@@ -123,7 +123,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Image = global::asmnt_Homepage.Properties.Resources.Still_no_arrest______Imgur;
+            this.pictureBox1.Image = global::asmnt_Homepage.Properties.Resources.confused;
             this.pictureBox1.Location = new System.Drawing.Point(16, 33);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(351, 228);

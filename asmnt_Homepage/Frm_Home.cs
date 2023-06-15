@@ -145,5 +145,13 @@ namespace asmnt_Homepage
             sc2.Panel2.Controls.Add(picViewer);
             picViewer.Show();
          }
+
+        private void btnmyPaint_Click(object sender, EventArgs e)
+        {
+            frmmyPaint mp = new frmmyPaint();
+            mp.TopLevel = false;
+            sc2.Panel2.Controls.Add(mp);
+            mp.Show();
+        }
     }
 }

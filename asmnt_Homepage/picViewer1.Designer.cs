@@ -36,7 +36,7 @@
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::asmnt_Homepage.Properties.Resources.Still_no_arrest______Imgur;
+            this.pictureBox1.Image = global::asmnt_Homepage.Properties.Resources.confused;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(447, 298);

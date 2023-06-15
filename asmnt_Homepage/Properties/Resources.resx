@@ -124,7 +124,7 @@
   <data name="Avezano photography backdrops photo studio background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Avezano photography backdrops photo studio background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MRW I accidentally fart near a cute girl, and she smiles at me and farts back - Imgur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="joey" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MRW I accidentally fart near a cute girl, and she smiles at me and farts back - Imgur.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="scretch_star" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -145,7 +145,7 @@
   <data name="wallpaper_lien2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wallpaper_lien2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Insert card as shown - Imgur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Insert card" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Insert card as shown - Imgur.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ocean_grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -162,9 +162,6 @@
   </data>
   <data name="flower_graygreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flower_graygreen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cloud_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cloud_white.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="newfile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\newfile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,7 +184,7 @@
   <data name="flower_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flower_blue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Still no arrest... - Imgur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="confused" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Still no arrest... - Imgur.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="beer" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -202,14 +199,11 @@
   <data name="pattern_gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pattern_gray.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BKZ9eqC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="big disappoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BKZ9eqC.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="openfile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\openfile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="0Oyoljg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\0Oyoljg.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="flower_graybrown1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flower_graybrown1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,10 +220,7 @@
   <data name="sky_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sky_dark.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anime_chicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anime_chicken.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="cillian" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

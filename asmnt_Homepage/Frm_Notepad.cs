@@ -164,9 +164,9 @@ namespace asmnt_Homepage
 
         private void colorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ColorDialog fnt = new ColorDialog();
-            if (fnt.ShowDialog() == DialogResult.OK)
-                richTextBox1.ForeColor = fnt.Color;
+            ColorDialog clr = new ColorDialog();
+            if (clr.ShowDialog() == DialogResult.OK)
+                richTextBox1.ForeColor = clr.Color;
         }
 
         //大寫字母

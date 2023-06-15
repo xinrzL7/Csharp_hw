@@ -63,29 +63,9 @@ namespace asmnt_Homepage.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        public static System.Drawing.Bitmap _0Oyoljg {
-            get {
-                object obj = ResourceManager.GetObject("0Oyoljg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
-        /// </summary>
         public static System.Drawing.Bitmap a14950b2e741470c41d7a2fe9745e492 {
             get {
                 object obj = ResourceManager.GetObject("a14950b2e741470c41d7a2fe9745e492", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
-        /// </summary>
-        public static System.Drawing.Bitmap anime_chicken {
-            get {
-                object obj = ResourceManager.GetObject("anime_chicken", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +93,9 @@ namespace asmnt_Homepage.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        public static System.Drawing.Bitmap BKZ9eqC {
+        public static System.Drawing.Bitmap big_disappoint {
             get {
-                object obj = ResourceManager.GetObject("BKZ9eqC", resourceCulture);
+                object obj = ResourceManager.GetObject("big disappoint", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +103,9 @@ namespace asmnt_Homepage.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        public static System.Drawing.Bitmap cloud_white {
+        public static System.Drawing.Bitmap cillian {
             get {
-                object obj = ResourceManager.GetObject("cloud_white", resourceCulture);
+                object obj = ResourceManager.GetObject("cillian", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +113,9 @@ namespace asmnt_Homepage.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        public static System.Drawing.Bitmap cm {
+        public static System.Drawing.Bitmap confused {
             get {
-                object obj = ResourceManager.GetObject("cm", resourceCulture);
+                object obj = ResourceManager.GetObject("confused", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +213,9 @@ namespace asmnt_Homepage.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        public static System.Drawing.Bitmap Insert_card_as_shown___Imgur {
+        public static System.Drawing.Bitmap Insert_card {
             get {
-                object obj = ResourceManager.GetObject("Insert card as shown - Imgur", resourceCulture);
+                object obj = ResourceManager.GetObject("Insert card", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,10 +223,9 @@ namespace asmnt_Homepage.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        public static System.Drawing.Bitmap MRW_I_accidentally_fart_near_a_cute_girl__and_she_smiles_at_me_and_farts_back___Imgur {
+        public static System.Drawing.Bitmap joey {
             get {
-                object obj = ResourceManager.GetObject("MRW I accidentally fart near a cute girl, and she smiles at me and farts back - I" +
-                        "mgur", resourceCulture);
+                object obj = ResourceManager.GetObject("joey", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -377,16 +356,6 @@ namespace asmnt_Homepage.Properties {
         public static System.Drawing.Bitmap sky_dark {
             get {
                 object obj = ResourceManager.GetObject("sky_dark", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
-        /// </summary>
-        public static System.Drawing.Bitmap Still_no_arrest______Imgur {
-            get {
-                object obj = ResourceManager.GetObject("Still no arrest... - Imgur", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

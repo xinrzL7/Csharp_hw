@@ -48,6 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Frm_myPaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_myPaint.Designer.cs">
+      <DependentUpon>Frm_myPaint.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_PictureViewer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,6 +196,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Loan_Report.resx">
       <DependentUpon>Frm_Loan_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_myPaint.resx">
+      <DependentUpon>Frm_myPaint.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Notepad.resx">
       <DependentUpon>Frm_Notepad.cs</DependentUpon>
@@ -352,9 +361,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Still no arrest... - Imgur.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\0Oyoljg.jpeg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\BKZ9eqC.jpeg" />
