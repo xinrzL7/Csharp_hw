@@ -57,7 +57,6 @@
             this.txtInput.Name = "txtInput";
             this.txtInput.Size = new System.Drawing.Size(322, 43);
             this.txtInput.TabIndex = 1;
-            this.txtInput.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnCencel
             // 

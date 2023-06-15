@@ -45,5 +45,11 @@ namespace asmnt_Homepage
             picViewer5 pv5 = new picViewer5();
             pv5.Show();
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            picViewer6 pv6 = new picViewer6();
+            pv6.Show();
+        }
     }
 }

@@ -37,14 +37,11 @@
             this.btnNotepad = new System.Windows.Forms.Button();
             this.btnScreenSaver = new System.Windows.Forms.Button();
             this.btnXOgame = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.btnCalculator = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.btnStudentStruct = new System.Windows.Forms.Button();
             this.btnPOS = new System.Windows.Forms.Button();
             this.btnLoan = new System.Windows.Forms.Button();
             this.btnHello = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.sc1)).BeginInit();
             this.sc1.Panel1.SuspendLayout();
             this.sc1.Panel2.SuspendLayout();
@@ -83,9 +80,9 @@
             this.labCsharp.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.labCsharp.Font = new System.Drawing.Font("微軟正黑體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labCsharp.ForeColor = System.Drawing.Color.Ivory;
-            this.labCsharp.Location = new System.Drawing.Point(0, 103);
+            this.labCsharp.Location = new System.Drawing.Point(0, 82);
             this.labCsharp.Name = "labCsharp";
-            this.labCsharp.Size = new System.Drawing.Size(122, 40);
+            this.labCsharp.Size = new System.Drawing.Size(186, 61);
             this.labCsharp.TabIndex = 0;
             this.labCsharp.Text = "C#作業";
             this.labCsharp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -108,14 +105,11 @@
             this.sc2.Panel1.Controls.Add(this.btnNotepad);
             this.sc2.Panel1.Controls.Add(this.btnScreenSaver);
             this.sc2.Panel1.Controls.Add(this.btnXOgame);
-            this.sc2.Panel1.Controls.Add(this.button8);
             this.sc2.Panel1.Controls.Add(this.btnCalculator);
-            this.sc2.Panel1.Controls.Add(this.button3);
             this.sc2.Panel1.Controls.Add(this.btnStudentStruct);
             this.sc2.Panel1.Controls.Add(this.btnPOS);
             this.sc2.Panel1.Controls.Add(this.btnLoan);
             this.sc2.Panel1.Controls.Add(this.btnHello);
-            this.sc2.Panel1.Controls.Add(this.button14);
             this.sc2.Panel1.ForeColor = System.Drawing.Color.Beige;
             // 
             // sc2.Panel2
@@ -138,7 +132,7 @@
             this.btnGuess.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuess.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuess.ForeColor = System.Drawing.Color.Ivory;
-            this.btnGuess.Location = new System.Drawing.Point(21, 469);
+            this.btnGuess.Location = new System.Drawing.Point(21, 414);
             this.btnGuess.Name = "btnGuess";
             this.btnGuess.Size = new System.Drawing.Size(207, 35);
             this.btnGuess.TabIndex = 15;
@@ -158,7 +152,7 @@
             this.btnPicViewer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPicViewer.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPicViewer.ForeColor = System.Drawing.Color.Ivory;
-            this.btnPicViewer.Location = new System.Drawing.Point(21, 431);
+            this.btnPicViewer.Location = new System.Drawing.Point(21, 373);
             this.btnPicViewer.Name = "btnPicViewer";
             this.btnPicViewer.Size = new System.Drawing.Size(207, 35);
             this.btnPicViewer.TabIndex = 14;
@@ -178,7 +172,7 @@
             this.btnPaint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPaint.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPaint.ForeColor = System.Drawing.Color.Ivory;
-            this.btnPaint.Location = new System.Drawing.Point(21, 393);
+            this.btnPaint.Location = new System.Drawing.Point(21, 332);
             this.btnPaint.Name = "btnPaint";
             this.btnPaint.Size = new System.Drawing.Size(207, 35);
             this.btnPaint.TabIndex = 8;
@@ -198,7 +192,7 @@
             this.btnNotepad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNotepad.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNotepad.ForeColor = System.Drawing.Color.Ivory;
-            this.btnNotepad.Location = new System.Drawing.Point(21, 355);
+            this.btnNotepad.Location = new System.Drawing.Point(21, 291);
             this.btnNotepad.Name = "btnNotepad";
             this.btnNotepad.Size = new System.Drawing.Size(207, 35);
             this.btnNotepad.TabIndex = 13;
@@ -218,7 +212,7 @@
             this.btnScreenSaver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnScreenSaver.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnScreenSaver.ForeColor = System.Drawing.Color.Ivory;
-            this.btnScreenSaver.Location = new System.Drawing.Point(21, 317);
+            this.btnScreenSaver.Location = new System.Drawing.Point(21, 250);
             this.btnScreenSaver.Name = "btnScreenSaver";
             this.btnScreenSaver.Size = new System.Drawing.Size(207, 35);
             this.btnScreenSaver.TabIndex = 12;
@@ -238,32 +232,13 @@
             this.btnXOgame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXOgame.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXOgame.ForeColor = System.Drawing.Color.Ivory;
-            this.btnXOgame.Location = new System.Drawing.Point(21, 279);
+            this.btnXOgame.Location = new System.Drawing.Point(21, 209);
             this.btnXOgame.Name = "btnXOgame";
             this.btnXOgame.Size = new System.Drawing.Size(207, 35);
             this.btnXOgame.TabIndex = 11;
             this.btnXOgame.Text = "XO Game";
             this.btnXOgame.UseVisualStyleBackColor = false;
             this.btnXOgame.Click += new System.EventHandler(this.btnXOgame_Click);
-            // 
-            // button8
-            // 
-            this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button8.BackColor = System.Drawing.Color.Transparent;
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.Ivory;
-            this.button8.Location = new System.Drawing.Point(21, 241);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(207, 35);
-            this.button8.TabIndex = 10;
-            this.button8.Text = "For Do While";
-            this.button8.UseVisualStyleBackColor = false;
             // 
             // btnCalculator
             // 
@@ -277,32 +252,13 @@
             this.btnCalculator.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCalculator.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalculator.ForeColor = System.Drawing.Color.Ivory;
-            this.btnCalculator.Location = new System.Drawing.Point(21, 203);
+            this.btnCalculator.Location = new System.Drawing.Point(21, 168);
             this.btnCalculator.Name = "btnCalculator";
             this.btnCalculator.Size = new System.Drawing.Size(207, 35);
             this.btnCalculator.TabIndex = 9;
             this.btnCalculator.Text = "My Calculator";
             this.btnCalculator.UseVisualStyleBackColor = false;
             this.btnCalculator.Click += new System.EventHandler(this.btnCalculator_Click);
-            // 
-            // button3
-            // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Ivory;
-            this.button3.Location = new System.Drawing.Point(21, 165);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(207, 35);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Students Grade";
-            this.button3.UseVisualStyleBackColor = false;
             // 
             // btnStudentStruct
             // 
@@ -384,25 +340,6 @@
             this.btnHello.UseVisualStyleBackColor = false;
             this.btnHello.Click += new System.EventHandler(this.btnHello_Click);
             // 
-            // button14
-            // 
-            this.button14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button14.BackColor = System.Drawing.Color.Transparent;
-            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.ForeColor = System.Drawing.Color.Ivory;
-            this.button14.Location = new System.Drawing.Point(21, 507);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(207, 35);
-            this.button14.TabIndex = 16;
-            this.button14.Text = "Alarm";
-            this.button14.UseVisualStyleBackColor = false;
-            // 
             // frmHomePage
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -435,14 +372,11 @@
         private System.Windows.Forms.Label labCsharp;
         private System.Windows.Forms.Button btnCalculator;
         private System.Windows.Forms.Button btnPaint;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnStudentStruct;
         private System.Windows.Forms.Button btnPOS;
         private System.Windows.Forms.Button btnNotepad;
         private System.Windows.Forms.Button btnScreenSaver;
         private System.Windows.Forms.Button btnXOgame;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button btnGuess;
         private System.Windows.Forms.Button btnPicViewer;
     }

@@ -19,7 +19,7 @@ namespace asmnt_Homepage
         {
             InitializeComponent();
         }
-        //todo 視窗會重新開啟不會重疊，多次點擊只會出現一次
+
         //擋到控制項要有滾輪--sc2panel的autoscroll設定True
         //控制項隨著視窗改變大小--Anchor設定right/left/top
 
@@ -35,7 +35,6 @@ namespace asmnt_Homepage
         }
         
         
-        //todo 要修方法、加tryparse
         private void btnLoan_Click(object sender, EventArgs e)
         {
             sc2.Panel2.Controls.Clear();
@@ -45,7 +44,6 @@ namespace asmnt_Homepage
             loan.Show();
         }
         
-        //已完成
         private void btnPOS_Click(object sender, EventArgs e)
         {
             sc2.Panel2.Controls.Clear();
@@ -55,7 +53,6 @@ namespace asmnt_Homepage
             pos.Show();
         }
 
-        //已完成
         private void btnStudentStruct_Click(object sender, EventArgs e)
         {
             sc2.Panel2.Controls.Clear();
@@ -99,7 +96,6 @@ namespace asmnt_Homepage
             }
         }
 
-        //todo 進行中
         private void btnGuess_Click(object sender, EventArgs e)
         {
             sc2.Panel2.Controls.Clear();
@@ -109,7 +105,6 @@ namespace asmnt_Homepage
             guess.Show();
         }
 
-        //已完成
         private void btnCalculator_Click(object sender, EventArgs e)
         {
             sc2.Panel2.Controls.Clear();

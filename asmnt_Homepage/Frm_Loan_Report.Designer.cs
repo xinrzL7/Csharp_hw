@@ -180,6 +180,7 @@
             this.Controls.Add(this.labRepPeriod);
             this.Controls.Add(this.labRepLoan);
             this.Name = "frmLoanReport";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "0704_Loan_Report";
             this.Load += new System.EventHandler(this.frmLoanReport_Load);
             this.ResumeLayout(false);
