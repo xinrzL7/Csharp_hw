@@ -13,50 +13,62 @@ namespace asmnt_Homepage
 {
     public partial class frmmyPaint : Form
     {
-        int PenSize;
-        //private Bitmap drawingBitmap;
-        //private Graphics drawingGraphics;
+        Graphics g;
+        int x = -1;
+        int y = -1;
+        bool draw = false;
+        Pen pen;
+
         public frmmyPaint()
         {
             InitializeComponent();
-            //tbarSize.ValueChanged += TrackBar_ValueChanged;
-            //// 建立圖像緩衝區和相應的繪圖物件
-            //drawingBitmap = new Bitmap(ClientSize.Width, ClientSize.Height);
-            //drawingGraphics = Graphics.FromImage(drawingBitmap);
+            g = panel1.CreateGraphics();
+            pen = new Pen(Color.Black, 1);
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            pen.StartCap = pen.EndCap = System.Drawing.Drawing2D.LineCap.Round;
         }
-        private void TrackBar_ValueChanged(object sender, EventArgs e)
-        {
-            //PenSize = tbarSize.Value;
-            //labSize.Text = tbarSize.Value.ToString();
-        }
-
+        
         private void btnColor_Click(object sender, EventArgs e)
         {
             ColorDialog clr = new ColorDialog();
             if (clr.ShowDialog() == DialogResult.OK) 
                 txtColor.BackColor = clr.Color;
+            pen.Color = clr.Color;
         }
-        protected override void OnPaint(PaintEventArgs e)
+        
+
+        private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
-            //// 在視窗的繪製事件中將圖像緩衝區的內容繪製到視窗上
-            //e.Graphics.DrawImage(drawingBitmap, 0, 0);
+            draw = true;
+            x = e.X;
+            y = e.Y;
+            panel1.Cursor = Cursors.Cross;
         }
-        //protected override void OnMouseMove(MouseEventArgs e)
-        //{
-        //    在滑鼠移動時繪製畫筆
-        //    if (e.Button == MouseButtons.Left)
-        //    {
-        //        using (Pen pen = new Pen(Color.Black, PenSize))
-        //        {
-        //            drawingGraphics.DrawEllipse(pen, e.X, e.Y, PenSize, PenSize);
-        //        }
 
-        //        // 重新繪製視窗，以顯示更新的筆劃
-        //        Invalidate();
-        //    }
+        private void panel1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (draw && x != -1 && y !=-1) 
+            {
+                g.DrawLine(pen, new Point(x, y), e.Location);
+                x = e.X;
+                y = e.Y;
+            }
+        }
 
-        //    base.OnMouseMove(e);
-        //}
+        private void panel1_MouseUp(object sender, MouseEventArgs e)
+        {
+            draw = false;
+            x = -1;
+            y = -1;
+            panel1.Cursor = Cursors.Default;
+        }
+
+        private void tbarSize_Scroll(object sender, EventArgs e)
+        {
+            pen.Width = tbarSize.Value;
+           
+            labSize.Text = pen.Width.ToString();
+        }
     }
 }
 

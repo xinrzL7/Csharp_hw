@@ -148,6 +148,7 @@ namespace asmnt_Homepage
 
         private void btnmyPaint_Click(object sender, EventArgs e)
         {
+            sc2.Panel2.Controls.Clear();
             frmmyPaint mp = new frmmyPaint();
             mp.TopLevel = false;
             sc2.Panel2.Controls.Add(mp);

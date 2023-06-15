@@ -31,6 +31,7 @@
             this.sc1 = new System.Windows.Forms.SplitContainer();
             this.labCsharp = new System.Windows.Forms.Label();
             this.sc2 = new System.Windows.Forms.SplitContainer();
+            this.btnmyPaint = new System.Windows.Forms.Button();
             this.btnGuess = new System.Windows.Forms.Button();
             this.btnPicViewer = new System.Windows.Forms.Button();
             this.btnPaint = new System.Windows.Forms.Button();
@@ -42,7 +43,6 @@
             this.btnPOS = new System.Windows.Forms.Button();
             this.btnLoan = new System.Windows.Forms.Button();
             this.btnHello = new System.Windows.Forms.Button();
-            this.btnmyPaint = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.sc1)).BeginInit();
             this.sc1.Panel1.SuspendLayout();
             this.sc1.Panel2.SuspendLayout();
@@ -121,6 +121,26 @@
             this.sc2.Size = new System.Drawing.Size(1157, 576);
             this.sc2.SplitterDistance = 255;
             this.sc2.TabIndex = 0;
+            // 
+            // btnmyPaint
+            // 
+            this.btnmyPaint.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnmyPaint.BackColor = System.Drawing.Color.Transparent;
+            this.btnmyPaint.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnmyPaint.FlatAppearance.BorderSize = 0;
+            this.btnmyPaint.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnmyPaint.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.btnmyPaint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnmyPaint.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmyPaint.ForeColor = System.Drawing.Color.Ivory;
+            this.btnmyPaint.Location = new System.Drawing.Point(21, 373);
+            this.btnmyPaint.Name = "btnmyPaint";
+            this.btnmyPaint.Size = new System.Drawing.Size(207, 35);
+            this.btnmyPaint.TabIndex = 16;
+            this.btnmyPaint.Text = "myPaint";
+            this.btnmyPaint.UseVisualStyleBackColor = false;
+            this.btnmyPaint.Click += new System.EventHandler(this.btnmyPaint_Click);
             // 
             // btnGuess
             // 
@@ -341,26 +361,6 @@
             this.btnHello.Text = "Hello";
             this.btnHello.UseVisualStyleBackColor = false;
             this.btnHello.Click += new System.EventHandler(this.btnHello_Click);
-            // 
-            // btnmyPaint
-            // 
-            this.btnmyPaint.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnmyPaint.BackColor = System.Drawing.Color.Transparent;
-            this.btnmyPaint.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnmyPaint.FlatAppearance.BorderSize = 0;
-            this.btnmyPaint.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnmyPaint.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
-            this.btnmyPaint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnmyPaint.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnmyPaint.ForeColor = System.Drawing.Color.Ivory;
-            this.btnmyPaint.Location = new System.Drawing.Point(21, 373);
-            this.btnmyPaint.Name = "btnmyPaint";
-            this.btnmyPaint.Size = new System.Drawing.Size(207, 35);
-            this.btnmyPaint.TabIndex = 16;
-            this.btnmyPaint.Text = "myPaint";
-            this.btnmyPaint.UseVisualStyleBackColor = false;
-            this.btnmyPaint.Click += new System.EventHandler(this.btnmyPaint_Click);
             // 
             // frmHomePage
             // 
