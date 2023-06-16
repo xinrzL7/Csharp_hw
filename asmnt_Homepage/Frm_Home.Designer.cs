@@ -82,9 +82,9 @@
             this.labCsharp.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.labCsharp.Font = new System.Drawing.Font("微軟正黑體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labCsharp.ForeColor = System.Drawing.Color.Ivory;
-            this.labCsharp.Location = new System.Drawing.Point(0, 103);
+            this.labCsharp.Location = new System.Drawing.Point(0, 82);
             this.labCsharp.Name = "labCsharp";
-            this.labCsharp.Size = new System.Drawing.Size(122, 40);
+            this.labCsharp.Size = new System.Drawing.Size(186, 61);
             this.labCsharp.TabIndex = 0;
             this.labCsharp.Text = "C#作業";
             this.labCsharp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
