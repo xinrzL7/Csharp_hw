@@ -23,95 +23,57 @@ namespace asmnt_Homepage
 
         //擋到控制項要有滾輪--sc2panel的autoscroll設定True
         //控制項隨著視窗改變大小--Anchor設定right/left/top
-
-        private void btnHello_Click(object sender, EventArgs e)
+        
+        //按鈕觸發後變色
+        public void btnColor(Button btn) 
         {
-             
-            sc2.Panel2.Controls.Clear();
             foreach (Control item in sc2.Panel1.Controls)
             {
-                if (item is Button && item != btnHello ) 
-                {
+                if (item is Button && item != btn)
                     item.BackColor = Color.Transparent;
-                }
                 else
                     item.BackColor = Color.Tan;
             }
-            //將以下觸發視窗的程式碼寫在控制項清除後才不會一打開就被關掉
+        }
+
+        //視窗開啟
+        public void formOpen(Button btn, Form frm) 
+        {
+            sc2.Panel2.Controls.Clear();
+            btnColor(btn);
+            frm.TopLevel = false;
+            sc2.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void btnHello_Click(object sender, EventArgs e)
+        {
             frmHello hello = new frmHello();
-            hello.TopLevel = false;  // 表單為最上層
-            sc2.Panel2.Controls.Add(hello);  // 表單出現在視窗內，配合toplevel=false
-            hello.Show();
+            formOpen(btnHello, hello);
         }
         
         private void btnLoan_Click(object sender, EventArgs e)
         {
-            sc2.Panel2.Controls.Clear();
-            foreach (Control item in sc2.Panel1.Controls)
-            {
-                if (item is Button && item != btnLoan)
-                {
-                    item.BackColor = Color.Transparent;
-                }
-                else
-                    item.BackColor = Color.Tan;
-            }
-            frmLoan loan = new frmLoan();
-            loan.TopLevel = false;
-            sc2.Panel2.Controls.Add(loan);
-            loan.Show();
-
+            frmLoan loan = new frmLoan();   
+            formOpen(btnLoan, loan);
         }
         
         private void btnPOS_Click(object sender, EventArgs e)
         {
-            sc2.Panel2.Controls.Clear();
-            foreach (Control item in sc2.Panel1.Controls)
-            {
-                if (item is Button && item != btnPOS)
-                {
-                    item.BackColor = Color.Transparent;
-                }
-                else
-                    item.BackColor = Color.Tan;
-            }
             frmPOS pos = new frmPOS();
-            pos.TopLevel = false;
-            sc2.Panel2.Controls.Add(pos);
-            pos.Show();
+            formOpen(btnPOS, pos);
         }
 
         private void btnStudentStruct_Click(object sender, EventArgs e)
         {
-            sc2.Panel2.Controls.Clear();
-            foreach (Control item in sc2.Panel1.Controls)
-            {
-                if (item is Button && item != btnStudentStruct)
-                {
-                    item.BackColor = Color.Transparent;
-                }
-                else
-                    item.BackColor = Color.Tan;
-            }
-            frmStudentStruct stuStr = new frmStudentStruct();
-            stuStr.TopLevel = false;
-            sc2.Panel2.Controls.Add(stuStr);
-            stuStr.Show();
-
+            frmStudentStruct stuStruct = new frmStudentStruct();
+            formOpen(btnStudentStruct, stuStruct);
         }
 
         private void btnPaint_Click(object sender, EventArgs e)
         {
             sc2.Panel2.Controls.Clear();
-            foreach (Control item in sc2.Panel1.Controls)
-            {
-                if (item is Button && item != btnPaint)
-                {
-                    item.BackColor = Color.Transparent;
-                }
-                else
-                    item.BackColor = Color.Tan;
-            }
+            btnColor(btnPaint);
             try
             {
                 //小畫家檔名
@@ -142,52 +104,20 @@ namespace asmnt_Homepage
         
         private void btnGuess_Click(object sender, EventArgs e)
         {
-            sc2.Panel2.Controls.Clear();
-            foreach (Control item in sc2.Panel1.Controls)
-            {
-                if (item is Button && item != btnGuess)
-                {
-                    item.BackColor = Color.Transparent;
-                }
-                else
-                    item.BackColor = Color.Tan;
-            }
             frmGuess guess = new frmGuess();
-            guess.TopLevel = false;
-            sc2.Panel2.Controls.Add(guess);
-            guess.Show();
+            formOpen(btnGuess, guess);
         }
 
         private void btnCalculator_Click(object sender, EventArgs e)
         {
-            sc2.Panel2.Controls.Clear();
-            foreach (Control item in sc2.Panel1.Controls)
-            {
-                if (item is Button && item != btnCalculator)
-                {
-                    item.BackColor = Color.Transparent;
-                }
-                else
-                    item.BackColor = Color.Tan;
-            }
             frmCalculator calc = new frmCalculator();
-            calc.TopLevel = false;
-            sc2.Panel2.Controls.Add(calc);
-            calc.Show();
+            formOpen(btnCalculator, calc);
         }
 
         private void btnNotepad_Click(object sender, EventArgs e)
         {
             sc2.Panel2.Controls.Clear();
-            foreach (Control item in sc2.Panel1.Controls)
-            {
-                if (item is Button && item != btnNotepad)
-                {
-                    item.BackColor = Color.Transparent;
-                }
-                else
-                    item.BackColor = Color.Tan;
-            }
+            btnColor(btnNotepad);
             frmNotepad notepad = new frmNotepad();
             notepad.Show();
         }
@@ -195,71 +125,27 @@ namespace asmnt_Homepage
         private void btnScreenSaver_Click(object sender, EventArgs e)
         {
             sc2.Panel2.Controls.Clear();
-            foreach (Control item in sc2.Panel1.Controls)
-            {
-                if (item is Button && item != btnScreenSaver)
-                {
-                    item.BackColor = Color.Transparent;
-                }
-                else
-                    item.BackColor = Color.Tan;
-            }
+            btnColor(btnScreenSaver);
             frmScreenSaver ss  = new frmScreenSaver();
             ss.Show();
         }
 
         private void btnXOgame_Click(object sender, EventArgs e)
         {
-            sc2.Panel2.Controls.Clear();
-            foreach (Control item in sc2.Panel1.Controls)
-            {
-                if (item is Button && item != btnXOgame)
-                {
-                    item.BackColor = Color.Transparent;
-                }
-                else
-                    item.BackColor = Color.Tan;
-            }
             frmXOgame xo = new frmXOgame();
-            xo.TopLevel = false;
-            sc2.Panel2.Controls.Add(xo);
-            xo.Show();
+            formOpen(btnXOgame, xo);
         }
 
         private void btnPicViewer_Click(object sender, EventArgs e)
         {
-            sc2.Panel2.Controls.Clear();
-            foreach (Control item in sc2.Panel1.Controls)
-            {
-                if (item is Button && item != btnPicViewer)
-                {
-                    item.BackColor = Color.Transparent;
-                }
-                else
-                    item.BackColor = Color.Tan;
-            }
             frmPicViewer picViewer = new frmPicViewer();
-            picViewer.TopLevel = false;
-            sc2.Panel2.Controls.Add(picViewer);
-            picViewer.Show();
-         }
+            formOpen(btnPicViewer, picViewer);
+        }
 
         private void btnmyPaint_Click(object sender, EventArgs e)
         {
-            sc2.Panel2.Controls.Clear();
-            foreach (Control item in sc2.Panel1.Controls)
-            {
-                if (item is Button && item != btnmyPaint)
-                {
-                    item.BackColor = Color.Transparent;
-                }
-                else
-                    item.BackColor = Color.Tan;
-            }
             frmmyPaint mp = new frmmyPaint();
-            mp.TopLevel = false;
-            sc2.Panel2.Controls.Add(mp);
-            mp.Show();
+            formOpen(btnmyPaint, mp);
         }
     }
 }
