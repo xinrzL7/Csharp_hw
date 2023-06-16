@@ -40,7 +40,7 @@ namespace asmnt_Homepage
         private void btnGuess_Click(object sender, EventArgs e)
         {
             frmInputBox inputbox = new frmInputBox(this);
-            inputbox.Show();
+            inputbox.ShowDialog();
         }
 
         

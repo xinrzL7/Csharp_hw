@@ -23,17 +23,15 @@ namespace asmnt_Homepage
         //擋到控制項要有滾輪--sc2panel的autoscroll設定True
         //控制項隨著視窗改變大小--Anchor設定right/left/top
 
-        //已完成
         private void btnHello_Click(object sender, EventArgs e)
         {
             sc2.Panel2.Controls.Clear();
-            //將以下觸發視窗的程式碼寫在關掉後才不會一打開就被關掉
+            //將以下觸發視窗的程式碼寫在控制項清除後才不會一打開就被關掉
             frmHello hello = new frmHello();
             hello.TopLevel = false;  // 表單為最上層
             sc2.Panel2.Controls.Add(hello);  // 表單出現在視窗內，配合toplevel=false
             hello.Show();
         }
-        
         
         private void btnLoan_Click(object sender, EventArgs e)
         {
@@ -63,19 +61,18 @@ namespace asmnt_Homepage
 
         }
 
-        //todo 改成自己設計的
         private void btnPaint_Click(object sender, EventArgs e)
         {
             sc2.Panel2.Controls.Clear();
             try
             {
-                // 指定小畫家的檔名
+                //小畫家檔名
                 string paintFileName = "mspaint.exe";
 
-                // 從系統環境變數中取得路徑
+                //從系統環境變數中取得路徑
                 string systemPath = Environment.GetEnvironmentVariable("PATH");
 
-                // 依序搜尋每個路徑
+                //搜尋每個路徑
                 string[] paths = systemPath.Split(';');
                 foreach (string path in paths)
                 {
@@ -83,7 +80,6 @@ namespace asmnt_Homepage
 
                     if (System.IO.File.Exists(paintPath))
                     {
-                        // 找到小畫家的路徑，啟動應用程式
                         Process.Start(paintPath);
                         return;
                     }

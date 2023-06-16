@@ -374,5 +374,8 @@
   <ItemGroup>
     <None Include="Resources\cm.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tada.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

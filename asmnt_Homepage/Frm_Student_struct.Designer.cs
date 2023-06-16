@@ -50,8 +50,8 @@
             this.LabName.AutoSize = true;
             this.LabName.BackColor = System.Drawing.Color.Transparent;
             this.LabName.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.LabName.ForeColor = System.Drawing.Color.Snow;
-            this.LabName.Location = new System.Drawing.Point(34, 73);
+            this.LabName.ForeColor = System.Drawing.Color.White;
+            this.LabName.Location = new System.Drawing.Point(50, 78);
             this.LabName.Name = "LabName";
             this.LabName.Size = new System.Drawing.Size(75, 26);
             this.LabName.TabIndex = 0;
@@ -62,8 +62,8 @@
             this.labCN.AutoSize = true;
             this.labCN.BackColor = System.Drawing.Color.Transparent;
             this.labCN.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labCN.ForeColor = System.Drawing.Color.Snow;
-            this.labCN.Location = new System.Drawing.Point(34, 132);
+            this.labCN.ForeColor = System.Drawing.Color.White;
+            this.labCN.Location = new System.Drawing.Point(50, 144);
             this.labCN.Name = "labCN";
             this.labCN.Size = new System.Drawing.Size(75, 26);
             this.labCN.TabIndex = 1;
@@ -74,8 +74,8 @@
             this.labEN.AutoSize = true;
             this.labEN.BackColor = System.Drawing.Color.Transparent;
             this.labEN.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labEN.ForeColor = System.Drawing.Color.Snow;
-            this.labEN.Location = new System.Drawing.Point(34, 188);
+            this.labEN.ForeColor = System.Drawing.Color.White;
+            this.labEN.Location = new System.Drawing.Point(50, 203);
             this.labEN.Name = "labEN";
             this.labEN.Size = new System.Drawing.Size(75, 26);
             this.labEN.TabIndex = 2;
@@ -86,8 +86,8 @@
             this.labMath.AutoSize = true;
             this.labMath.BackColor = System.Drawing.Color.Transparent;
             this.labMath.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labMath.ForeColor = System.Drawing.Color.Snow;
-            this.labMath.Location = new System.Drawing.Point(34, 242);
+            this.labMath.ForeColor = System.Drawing.Color.White;
+            this.labMath.Location = new System.Drawing.Point(50, 264);
             this.labMath.Name = "labMath";
             this.labMath.Size = new System.Drawing.Size(75, 26);
             this.labMath.TabIndex = 3;
@@ -97,55 +97,60 @@
             // 
             this.txtName.BackColor = System.Drawing.Color.OldLace;
             this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtName.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtName.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtName.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.txtName.Location = new System.Drawing.Point(104, 72);
+            this.txtName.Location = new System.Drawing.Point(148, 76);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(133, 26);
+            this.txtName.Size = new System.Drawing.Size(133, 25);
             this.txtName.TabIndex = 4;
+            this.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtCN
             // 
             this.txtCN.BackColor = System.Drawing.Color.OldLace;
             this.txtCN.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtCN.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtCN.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCN.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.txtCN.Location = new System.Drawing.Point(104, 129);
+            this.txtCN.Location = new System.Drawing.Point(148, 142);
             this.txtCN.Name = "txtCN";
-            this.txtCN.Size = new System.Drawing.Size(133, 26);
+            this.txtCN.Size = new System.Drawing.Size(133, 25);
             this.txtCN.TabIndex = 5;
+            this.txtCN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtEN
             // 
             this.txtEN.BackColor = System.Drawing.Color.OldLace;
             this.txtEN.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtEN.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtEN.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEN.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.txtEN.Location = new System.Drawing.Point(104, 185);
+            this.txtEN.Location = new System.Drawing.Point(148, 201);
             this.txtEN.Name = "txtEN";
-            this.txtEN.Size = new System.Drawing.Size(133, 26);
+            this.txtEN.Size = new System.Drawing.Size(133, 25);
             this.txtEN.TabIndex = 6;
+            this.txtEN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtMA
             // 
             this.txtMA.BackColor = System.Drawing.Color.OldLace;
             this.txtMA.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtMA.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtMA.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMA.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.txtMA.Location = new System.Drawing.Point(104, 242);
+            this.txtMA.Location = new System.Drawing.Point(148, 262);
             this.txtMA.Name = "txtMA";
-            this.txtMA.Size = new System.Drawing.Size(133, 26);
+            this.txtMA.Size = new System.Drawing.Size(133, 25);
             this.txtMA.TabIndex = 7;
+            this.txtMA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnSave
             // 
-            this.btnSave.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.btnSave.BackColor = System.Drawing.Color.Peru;
+            this.btnSave.FlatAppearance.BorderSize = 0;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSave.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnSave.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnSave.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.btnSave.Location = new System.Drawing.Point(39, 300);
+            this.btnSave.Location = new System.Drawing.Point(50, 339);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 37);
+            this.btnSave.Size = new System.Drawing.Size(82, 37);
             this.btnSave.TabIndex = 8;
             this.btnSave.Text = "儲存";
             this.btnSave.UseVisualStyleBackColor = false;
@@ -158,7 +163,7 @@
             this.gpGrades.Controls.Add(this.txtAllGrades);
             this.gpGrades.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.gpGrades.ForeColor = System.Drawing.Color.Snow;
-            this.gpGrades.Location = new System.Drawing.Point(260, 38);
+            this.gpGrades.Location = new System.Drawing.Point(304, 50);
             this.gpGrades.Name = "gpGrades";
             this.gpGrades.Size = new System.Drawing.Size(288, 245);
             this.gpGrades.TabIndex = 9;
@@ -195,13 +200,14 @@
             // 
             // btnShow
             // 
-            this.btnShow.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.btnShow.BackColor = System.Drawing.Color.Peru;
+            this.btnShow.FlatAppearance.BorderSize = 0;
             this.btnShow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnShow.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnShow.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnShow.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.btnShow.Location = new System.Drawing.Point(120, 300);
+            this.btnShow.Location = new System.Drawing.Point(138, 339);
             this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(117, 37);
+            this.btnShow.Size = new System.Drawing.Size(143, 37);
             this.btnShow.TabIndex = 10;
             this.btnShow.Text = "顯示儲存內容";
             this.btnShow.UseVisualStyleBackColor = false;
@@ -209,11 +215,12 @@
             // 
             // btnHighLow
             // 
-            this.btnHighLow.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.btnHighLow.BackColor = System.Drawing.Color.Peru;
+            this.btnHighLow.FlatAppearance.BorderSize = 0;
             this.btnHighLow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHighLow.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnHighLow.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnHighLow.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.btnHighLow.Location = new System.Drawing.Point(260, 300);
+            this.btnHighLow.Location = new System.Drawing.Point(304, 339);
             this.btnHighLow.Name = "btnHighLow";
             this.btnHighLow.Size = new System.Drawing.Size(288, 37);
             this.btnHighLow.TabIndex = 11;
@@ -227,7 +234,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.Tan;
-            this.ClientSize = new System.Drawing.Size(588, 362);
+            this.ClientSize = new System.Drawing.Size(637, 417);
             this.Controls.Add(this.btnHighLow);
             this.Controls.Add(this.btnShow);
             this.Controls.Add(this.gpGrades);

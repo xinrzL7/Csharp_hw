@@ -68,9 +68,9 @@
             // 
             // btnWine
             // 
-            this.btnWine.BackColor = System.Drawing.Color.White;
+            this.btnWine.BackColor = System.Drawing.Color.GhostWhite;
             this.btnWine.BackgroundImage = global::asmnt_Homepage.Properties.Resources.wine;
-            this.btnWine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnWine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnWine.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnWine.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnWine.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -84,9 +84,9 @@
             // 
             // btnWhisky
             // 
-            this.btnWhisky.BackColor = System.Drawing.Color.White;
+            this.btnWhisky.BackColor = System.Drawing.Color.GhostWhite;
             this.btnWhisky.BackgroundImage = global::asmnt_Homepage.Properties.Resources.whisky;
-            this.btnWhisky.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnWhisky.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnWhisky.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnWhisky.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnWhisky.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -100,9 +100,9 @@
             // 
             // btnTequila
             // 
-            this.btnTequila.BackColor = System.Drawing.Color.White;
+            this.btnTequila.BackColor = System.Drawing.Color.GhostWhite;
             this.btnTequila.BackgroundImage = global::asmnt_Homepage.Properties.Resources.tequila;
-            this.btnTequila.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnTequila.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnTequila.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnTequila.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnTequila.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -116,9 +116,9 @@
             // 
             // btnBeer
             // 
-            this.btnBeer.BackColor = System.Drawing.Color.White;
+            this.btnBeer.BackColor = System.Drawing.Color.GhostWhite;
             this.btnBeer.BackgroundImage = global::asmnt_Homepage.Properties.Resources.beer;
-            this.btnBeer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnBeer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnBeer.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnBeer.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnBeer.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -192,7 +192,7 @@
             // 
             // txtList
             // 
-            this.txtList.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtList.BackColor = System.Drawing.Color.GhostWhite;
             this.txtList.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtList.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtList.ForeColor = System.Drawing.Color.Black;

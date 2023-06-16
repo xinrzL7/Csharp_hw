@@ -17,6 +17,11 @@ namespace asmnt_Homepage
         {
             InitializeComponent();
             this.g = g;
+            this.KeyDown += (sender, e) =>
+            {
+                if (e.KeyData == Keys.Enter)
+                    btnEnter_Click(sender, e);
+            };
         }
         frmGuess gs = new frmGuess();
         int ibAnswer;
@@ -37,7 +42,7 @@ namespace asmnt_Homepage
                     {
                         if (ibInput < ibAnswer)
                         {
-                            if(ibInput > MinNumber)
+                            if(ibInput >= MinNumber)
                             {
                                 MinNumber = ibInput;
                                 Hint = $"Too small. \nInput a number between {MinNumber} and {MaxNumber}.";
@@ -48,7 +53,7 @@ namespace asmnt_Homepage
                         }
                         else if (ibInput > ibAnswer)
                         {
-                            if (ibInput < MaxNumber) 
+                            if (ibInput <= MaxNumber) 
                             {
                                 MaxNumber = ibInput;
                                 Hint = $"Too large. \nInput a number between {MinNumber} and {MaxNumber}.";

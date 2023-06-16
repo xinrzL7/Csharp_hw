@@ -54,6 +54,7 @@
             // 
             // sc1
             // 
+            this.sc1.BackColor = System.Drawing.Color.DarkGray;
             this.sc1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.sc1.Location = new System.Drawing.Point(0, 0);
             this.sc1.Name = "sc1";
@@ -81,18 +82,20 @@
             this.labCsharp.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.labCsharp.Font = new System.Drawing.Font("微軟正黑體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labCsharp.ForeColor = System.Drawing.Color.Ivory;
-            this.labCsharp.Location = new System.Drawing.Point(0, 82);
+            this.labCsharp.Location = new System.Drawing.Point(0, 103);
             this.labCsharp.Name = "labCsharp";
-            this.labCsharp.Size = new System.Drawing.Size(186, 61);
+            this.labCsharp.Size = new System.Drawing.Size(122, 40);
             this.labCsharp.TabIndex = 0;
             this.labCsharp.Text = "C#作業";
             this.labCsharp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // sc2
             // 
+            this.sc2.BackColor = System.Drawing.Color.DarkGray;
             this.sc2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.sc2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sc2.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
+            this.sc2.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.sc2.ForeColor = System.Drawing.Color.DarkGoldenrod;
             this.sc2.Location = new System.Drawing.Point(0, 0);
             this.sc2.Name = "sc2";
             // 
@@ -119,7 +122,7 @@
             this.sc2.Panel2.BackColor = System.Drawing.Color.MintCream;
             this.sc2.Panel2.BackgroundImage = global::asmnt_Homepage.Properties.Resources.wallpaper_lien2;
             this.sc2.Size = new System.Drawing.Size(1157, 576);
-            this.sc2.SplitterDistance = 255;
+            this.sc2.SplitterDistance = 270;
             this.sc2.TabIndex = 0;
             // 
             // btnmyPaint
@@ -136,7 +139,7 @@
             this.btnmyPaint.ForeColor = System.Drawing.Color.Ivory;
             this.btnmyPaint.Location = new System.Drawing.Point(21, 373);
             this.btnmyPaint.Name = "btnmyPaint";
-            this.btnmyPaint.Size = new System.Drawing.Size(207, 35);
+            this.btnmyPaint.Size = new System.Drawing.Size(222, 35);
             this.btnmyPaint.TabIndex = 16;
             this.btnmyPaint.Text = "myPaint";
             this.btnmyPaint.UseVisualStyleBackColor = false;
@@ -156,7 +159,7 @@
             this.btnGuess.ForeColor = System.Drawing.Color.Ivory;
             this.btnGuess.Location = new System.Drawing.Point(21, 455);
             this.btnGuess.Name = "btnGuess";
-            this.btnGuess.Size = new System.Drawing.Size(207, 35);
+            this.btnGuess.Size = new System.Drawing.Size(222, 35);
             this.btnGuess.TabIndex = 15;
             this.btnGuess.Text = "Guess";
             this.btnGuess.UseVisualStyleBackColor = false;
@@ -176,7 +179,7 @@
             this.btnPicViewer.ForeColor = System.Drawing.Color.Ivory;
             this.btnPicViewer.Location = new System.Drawing.Point(21, 414);
             this.btnPicViewer.Name = "btnPicViewer";
-            this.btnPicViewer.Size = new System.Drawing.Size(207, 35);
+            this.btnPicViewer.Size = new System.Drawing.Size(222, 35);
             this.btnPicViewer.TabIndex = 14;
             this.btnPicViewer.Text = "Picture Viewer";
             this.btnPicViewer.UseVisualStyleBackColor = false;
@@ -196,7 +199,7 @@
             this.btnPaint.ForeColor = System.Drawing.Color.Ivory;
             this.btnPaint.Location = new System.Drawing.Point(21, 332);
             this.btnPaint.Name = "btnPaint";
-            this.btnPaint.Size = new System.Drawing.Size(207, 35);
+            this.btnPaint.Size = new System.Drawing.Size(222, 35);
             this.btnPaint.TabIndex = 8;
             this.btnPaint.Text = "Paint";
             this.btnPaint.UseVisualStyleBackColor = false;
@@ -216,7 +219,7 @@
             this.btnNotepad.ForeColor = System.Drawing.Color.Ivory;
             this.btnNotepad.Location = new System.Drawing.Point(21, 291);
             this.btnNotepad.Name = "btnNotepad";
-            this.btnNotepad.Size = new System.Drawing.Size(207, 35);
+            this.btnNotepad.Size = new System.Drawing.Size(222, 35);
             this.btnNotepad.TabIndex = 13;
             this.btnNotepad.Text = "Notepad";
             this.btnNotepad.UseVisualStyleBackColor = false;
@@ -236,7 +239,7 @@
             this.btnScreenSaver.ForeColor = System.Drawing.Color.Ivory;
             this.btnScreenSaver.Location = new System.Drawing.Point(21, 250);
             this.btnScreenSaver.Name = "btnScreenSaver";
-            this.btnScreenSaver.Size = new System.Drawing.Size(207, 35);
+            this.btnScreenSaver.Size = new System.Drawing.Size(222, 35);
             this.btnScreenSaver.TabIndex = 12;
             this.btnScreenSaver.Text = "Screen Saver";
             this.btnScreenSaver.UseVisualStyleBackColor = false;
@@ -256,7 +259,7 @@
             this.btnXOgame.ForeColor = System.Drawing.Color.Ivory;
             this.btnXOgame.Location = new System.Drawing.Point(21, 209);
             this.btnXOgame.Name = "btnXOgame";
-            this.btnXOgame.Size = new System.Drawing.Size(207, 35);
+            this.btnXOgame.Size = new System.Drawing.Size(222, 35);
             this.btnXOgame.TabIndex = 11;
             this.btnXOgame.Text = "XO Game";
             this.btnXOgame.UseVisualStyleBackColor = false;
@@ -276,7 +279,7 @@
             this.btnCalculator.ForeColor = System.Drawing.Color.Ivory;
             this.btnCalculator.Location = new System.Drawing.Point(21, 168);
             this.btnCalculator.Name = "btnCalculator";
-            this.btnCalculator.Size = new System.Drawing.Size(207, 35);
+            this.btnCalculator.Size = new System.Drawing.Size(222, 35);
             this.btnCalculator.TabIndex = 9;
             this.btnCalculator.Text = "My Calculator";
             this.btnCalculator.UseVisualStyleBackColor = false;
@@ -296,7 +299,7 @@
             this.btnStudentStruct.ForeColor = System.Drawing.Color.Ivory;
             this.btnStudentStruct.Location = new System.Drawing.Point(21, 127);
             this.btnStudentStruct.Name = "btnStudentStruct";
-            this.btnStudentStruct.Size = new System.Drawing.Size(207, 35);
+            this.btnStudentStruct.Size = new System.Drawing.Size(222, 35);
             this.btnStudentStruct.TabIndex = 4;
             this.btnStudentStruct.Text = "Student struct form";
             this.btnStudentStruct.UseVisualStyleBackColor = false;
@@ -316,7 +319,7 @@
             this.btnPOS.ForeColor = System.Drawing.Color.Ivory;
             this.btnPOS.Location = new System.Drawing.Point(21, 90);
             this.btnPOS.Name = "btnPOS";
-            this.btnPOS.Size = new System.Drawing.Size(207, 35);
+            this.btnPOS.Size = new System.Drawing.Size(222, 35);
             this.btnPOS.TabIndex = 3;
             this.btnPOS.Text = "POS";
             this.btnPOS.UseVisualStyleBackColor = false;
@@ -336,7 +339,7 @@
             this.btnLoan.ForeColor = System.Drawing.Color.Ivory;
             this.btnLoan.Location = new System.Drawing.Point(21, 52);
             this.btnLoan.Name = "btnLoan";
-            this.btnLoan.Size = new System.Drawing.Size(207, 35);
+            this.btnLoan.Size = new System.Drawing.Size(222, 35);
             this.btnLoan.TabIndex = 2;
             this.btnLoan.Text = "Loan";
             this.btnLoan.UseVisualStyleBackColor = false;
@@ -356,7 +359,7 @@
             this.btnHello.ForeColor = System.Drawing.Color.Ivory;
             this.btnHello.Location = new System.Drawing.Point(21, 14);
             this.btnHello.Name = "btnHello";
-            this.btnHello.Size = new System.Drawing.Size(207, 35);
+            this.btnHello.Size = new System.Drawing.Size(222, 35);
             this.btnHello.TabIndex = 1;
             this.btnHello.Text = "Hello";
             this.btnHello.UseVisualStyleBackColor = false;
@@ -372,6 +375,7 @@
             this.ForeColor = System.Drawing.Color.Beige;
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "frmHomePage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HomePage";
             this.sc1.Panel1.ResumeLayout(false);
             this.sc1.Panel1.PerformLayout();

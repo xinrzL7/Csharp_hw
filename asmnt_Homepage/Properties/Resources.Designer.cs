@@ -363,6 +363,16 @@ namespace asmnt_Homepage.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        public static System.Drawing.Bitmap tada {
+            get {
+                object obj = ResourceManager.GetObject("tada", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         public static System.Drawing.Bitmap tequila {
             get {
                 object obj = ResourceManager.GetObject("tequila", resourceCulture);

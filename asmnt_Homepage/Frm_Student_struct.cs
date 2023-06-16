@@ -85,5 +85,7 @@ namespace asmnt_Homepage
             txtHighLow.Text = $"最高科目成績為：{HighestSubject}{MaxScore}分" +
                 $"\r\n最低分科目成績為：{LowestSubject}{MinScore}分";
         }
+
+        
     }
 }

@@ -22,8 +22,10 @@ namespace asmnt_Homepage
         public frmmyPaint()
         {
             InitializeComponent();
-            g = panel1.CreateGraphics();
-            pen = new Pen(Color.Black, 1);
+            g = pnlCanvas.CreateGraphics();
+            
+            pen = new Pen(Color.Black, 1);  //預設顏色粗細
+            //筆畫變順
             g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
             pen.StartCap = pen.EndCap = System.Drawing.Drawing2D.LineCap.Round;
         }
@@ -37,15 +39,15 @@ namespace asmnt_Homepage
         }
         
 
-        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        private void pnlCanvas_MouseDown(object sender, MouseEventArgs e)
         {
             draw = true;
             x = e.X;
             y = e.Y;
-            panel1.Cursor = Cursors.Cross;
+            pnlCanvas.Cursor = Cursors.Cross;
         }
 
-        private void panel1_MouseMove(object sender, MouseEventArgs e)
+        private void pnlCanvas_MouseMove(object sender, MouseEventArgs e)
         {
             if (draw && x != -1 && y !=-1) 
             {
@@ -55,12 +57,12 @@ namespace asmnt_Homepage
             }
         }
 
-        private void panel1_MouseUp(object sender, MouseEventArgs e)
+        private void pnlCanvas_MouseUp(object sender, MouseEventArgs e)
         {
             draw = false;
             x = -1;
             y = -1;
-            panel1.Cursor = Cursors.Default;
+            pnlCanvas.Cursor = Cursors.Default;
         }
 
         private void tbarSize_Scroll(object sender, EventArgs e)
