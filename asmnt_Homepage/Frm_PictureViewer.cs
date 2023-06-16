@@ -17,39 +17,40 @@ namespace asmnt_Homepage
             InitializeComponent();
         }
 
+        picViewer1 pv1 = new picViewer1();
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            picViewer1 pv1 = new picViewer1();
-            pv1.Show();
+            pv1.imageShow(pictureBox1.Image);
+            pv1.ShowDialog();
         }
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            picViewer2 pv2 = new picViewer2();
-            pv2.Show();
+            pv1.imageShow(pictureBox2.Image);
+            pv1.ShowDialog();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            picViewer3 pv3 = new picViewer3();
-            pv3.Show();
+            pv1.imageShow(pictureBox3.Image);
+            pv1.ShowDialog();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            picViewer4 pv4 = new picViewer4();
-            pv4.Show();
+            pv1.imageShow(pictureBox4.Image);
+            pv1.ShowDialog();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            picViewer5 pv5 = new picViewer5();
-            pv5.Show();
+            pv1.imageShow(pictureBox5.Image);
+            pv1.ShowDialog();
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            picViewer6 pv6 = new picViewer6();
-            pv6.Show();
+            pv1.imageShow(pictureBox6.Image);
+            pv1.ShowDialog();
         }
     }
 }

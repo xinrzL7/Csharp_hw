@@ -16,5 +16,9 @@ namespace asmnt_Homepage
         {
             InitializeComponent();
         }
+        public void imageShow(Image img) 
+        {
+            pictureBox1.Image = img;
+        }
     }
 }
