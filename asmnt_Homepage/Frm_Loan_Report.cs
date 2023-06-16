@@ -15,16 +15,7 @@ namespace asmnt_Homepage
         public frmLoanReport()
         {
             InitializeComponent();
-        }
-
-        public void repValue(double repLoan, double repPeriod, double repRate, double repPMT, double repTotalPay)
-        {
-            txtRepLoan.Text = repLoan.ToString();
-            txtRepPeriod.Text = repPeriod.ToString();
-            txtRepRate.Text = repRate.ToString();
-            txtRepPMT.Text = repPMT.ToString();
-            txtRepTotalPay.Text = repTotalPay.ToString();
-        }
+        } 
         /* 取得表單Loan的值*/
         private void frmLoanReport_Load(object sender, EventArgs e)
         {

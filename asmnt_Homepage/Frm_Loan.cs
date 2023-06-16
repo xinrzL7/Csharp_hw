@@ -42,16 +42,13 @@ namespace asmnt_Homepage
             MessageBox.Show("總付款： " + loan.totalloanMethod() + "元");
         }
 
-        /* REPORT */
-        //todo 再修改
-        //定義靜態屬性的REPORT值 
+        
+        //定義靜態屬性的REPORT
         public static double RepLoan;
         public static double RepPeriod;
         public static double RepRate;
         public static double RepPMT = 0;
         public static double RepTotalPay = 0;
-
-        
         public void btnReport_Click(object sender, EventArgs e)
         {
             RepLoan = double.Parse(txtLoan.Text);

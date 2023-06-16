@@ -113,7 +113,7 @@
             this.txtRepLoan.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtRepLoan.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.txtRepLoan.Location = new System.Drawing.Point(223, 72);
-            this.txtRepLoan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtRepLoan.Margin = new System.Windows.Forms.Padding(2);
             this.txtRepLoan.Multiline = true;
             this.txtRepLoan.Name = "txtRepLoan";
             this.txtRepLoan.Size = new System.Drawing.Size(176, 31);
@@ -127,7 +127,7 @@
             this.txtRepPeriod.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtRepPeriod.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.txtRepPeriod.Location = new System.Drawing.Point(223, 124);
-            this.txtRepPeriod.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtRepPeriod.Margin = new System.Windows.Forms.Padding(2);
             this.txtRepPeriod.Multiline = true;
             this.txtRepPeriod.Name = "txtRepPeriod";
             this.txtRepPeriod.Size = new System.Drawing.Size(176, 31);
@@ -141,7 +141,7 @@
             this.txtRepRate.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtRepRate.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.txtRepRate.Location = new System.Drawing.Point(223, 179);
-            this.txtRepRate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtRepRate.Margin = new System.Windows.Forms.Padding(2);
             this.txtRepRate.Multiline = true;
             this.txtRepRate.Name = "txtRepRate";
             this.txtRepRate.Size = new System.Drawing.Size(176, 31);
@@ -155,7 +155,7 @@
             this.txtRepPMT.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtRepPMT.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.txtRepPMT.Location = new System.Drawing.Point(223, 231);
-            this.txtRepPMT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtRepPMT.Margin = new System.Windows.Forms.Padding(2);
             this.txtRepPMT.Multiline = true;
             this.txtRepPMT.Name = "txtRepPMT";
             this.txtRepPMT.Size = new System.Drawing.Size(176, 31);
@@ -169,7 +169,7 @@
             this.txtRepTotalPay.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtRepTotalPay.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.txtRepTotalPay.Location = new System.Drawing.Point(223, 282);
-            this.txtRepTotalPay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtRepTotalPay.Margin = new System.Windows.Forms.Padding(2);
             this.txtRepTotalPay.Multiline = true;
             this.txtRepTotalPay.Name = "txtRepTotalPay";
             this.txtRepTotalPay.Size = new System.Drawing.Size(176, 31);
@@ -183,10 +183,10 @@
             this.btnRepEmail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRepEmail.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnRepEmail.ForeColor = System.Drawing.Color.SlateGray;
-            this.btnRepEmail.Location = new System.Drawing.Point(0, 366);
-            this.btnRepEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRepEmail.Location = new System.Drawing.Point(0, 359);
+            this.btnRepEmail.Margin = new System.Windows.Forms.Padding(2);
             this.btnRepEmail.Name = "btnRepEmail";
-            this.btnRepEmail.Size = new System.Drawing.Size(477, 39);
+            this.btnRepEmail.Size = new System.Drawing.Size(477, 46);
             this.btnRepEmail.TabIndex = 10;
             this.btnRepEmail.Text = "EMAIL";
             this.btnRepEmail.UseVisualStyleBackColor = false;
@@ -208,7 +208,7 @@
             this.Controls.Add(this.labRepRate);
             this.Controls.Add(this.labRepPeriod);
             this.Controls.Add(this.labRepLoan);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmLoanReport";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "0704_Loan_Report";
