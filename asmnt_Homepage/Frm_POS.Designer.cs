@@ -60,8 +60,9 @@
             this.panMenu.Controls.Add(this.btnTequila);
             this.panMenu.Controls.Add(this.btnBeer);
             this.panMenu.Controls.Add(this.labMenu);
+            this.panMenu.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.panMenu.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.panMenu.Location = new System.Drawing.Point(6, 12);
+            this.panMenu.Location = new System.Drawing.Point(17, 24);
             this.panMenu.Name = "panMenu";
             this.panMenu.Size = new System.Drawing.Size(224, 302);
             this.panMenu.TabIndex = 0;
@@ -74,7 +75,7 @@
             this.btnWine.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnWine.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnWine.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnWine.Location = new System.Drawing.Point(111, 170);
+            this.btnWine.Location = new System.Drawing.Point(114, 165);
             this.btnWine.Name = "btnWine";
             this.btnWine.Size = new System.Drawing.Size(101, 121);
             this.btnWine.TabIndex = 4;
@@ -90,7 +91,7 @@
             this.btnWhisky.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnWhisky.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnWhisky.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnWhisky.Location = new System.Drawing.Point(7, 170);
+            this.btnWhisky.Location = new System.Drawing.Point(7, 165);
             this.btnWhisky.Name = "btnWhisky";
             this.btnWhisky.Size = new System.Drawing.Size(101, 121);
             this.btnWhisky.TabIndex = 3;
@@ -106,7 +107,7 @@
             this.btnTequila.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnTequila.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnTequila.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnTequila.Location = new System.Drawing.Point(111, 43);
+            this.btnTequila.Location = new System.Drawing.Point(114, 38);
             this.btnTequila.Name = "btnTequila";
             this.btnTequila.Size = new System.Drawing.Size(101, 121);
             this.btnTequila.TabIndex = 2;
@@ -123,7 +124,7 @@
             this.btnBeer.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnBeer.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnBeer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBeer.Location = new System.Drawing.Point(7, 43);
+            this.btnBeer.Location = new System.Drawing.Point(8, 38);
             this.btnBeer.Name = "btnBeer";
             this.btnBeer.Size = new System.Drawing.Size(101, 121);
             this.btnBeer.TabIndex = 1;
@@ -134,24 +135,25 @@
             // labMenu
             // 
             this.labMenu.AutoSize = true;
-            this.labMenu.BackColor = System.Drawing.Color.LightGray;
-            this.labMenu.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labMenu.ForeColor = System.Drawing.Color.Maroon;
-            this.labMenu.Location = new System.Drawing.Point(5, 9);
+            this.labMenu.BackColor = System.Drawing.Color.Transparent;
+            this.labMenu.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labMenu.ForeColor = System.Drawing.Color.White;
+            this.labMenu.Location = new System.Drawing.Point(3, 9);
             this.labMenu.Name = "labMenu";
-            this.labMenu.Size = new System.Drawing.Size(48, 24);
+            this.labMenu.Size = new System.Drawing.Size(54, 26);
             this.labMenu.TabIndex = 0;
             this.labMenu.Text = "酒單";
             // 
             // panPrice
             // 
             this.panPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panPrice.Controls.Add(this.txtPrice);
             this.panPrice.Controls.Add(this.labPrice);
+            this.panPrice.Controls.Add(this.txtPrice);
+            this.panPrice.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.panPrice.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.panPrice.Location = new System.Drawing.Point(241, 12);
+            this.panPrice.Location = new System.Drawing.Point(256, 24);
             this.panPrice.Name = "panPrice";
-            this.panPrice.Size = new System.Drawing.Size(213, 131);
+            this.panPrice.Size = new System.Drawing.Size(268, 119);
             this.panPrice.TabIndex = 1;
             // 
             // txtPrice
@@ -160,21 +162,21 @@
             this.txtPrice.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPrice.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtPrice.ForeColor = System.Drawing.Color.White;
-            this.txtPrice.Location = new System.Drawing.Point(3, 66);
+            this.txtPrice.Location = new System.Drawing.Point(12, 57);
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(205, 32);
+            this.txtPrice.Size = new System.Drawing.Size(241, 32);
             this.txtPrice.TabIndex = 1;
             this.txtPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // labPrice
             // 
             this.labPrice.AutoSize = true;
-            this.labPrice.BackColor = System.Drawing.Color.LightGray;
-            this.labPrice.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labPrice.ForeColor = System.Drawing.Color.Maroon;
-            this.labPrice.Location = new System.Drawing.Point(3, 9);
+            this.labPrice.BackColor = System.Drawing.Color.Transparent;
+            this.labPrice.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labPrice.ForeColor = System.Drawing.Color.White;
+            this.labPrice.Location = new System.Drawing.Point(7, 10);
             this.labPrice.Name = "labPrice";
-            this.labPrice.Size = new System.Drawing.Size(67, 24);
+            this.labPrice.Size = new System.Drawing.Size(75, 26);
             this.labPrice.TabIndex = 0;
             this.labPrice.Text = "總金額";
             // 
@@ -184,23 +186,24 @@
             this.panList.Controls.Add(this.txtList);
             this.panList.Controls.Add(this.btnClearList);
             this.panList.Controls.Add(this.labList);
+            this.panList.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.panList.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.panList.Location = new System.Drawing.Point(466, 12);
+            this.panList.Location = new System.Drawing.Point(540, 24);
             this.panList.Name = "panList";
-            this.panList.Size = new System.Drawing.Size(233, 302);
+            this.panList.Size = new System.Drawing.Size(355, 302);
             this.panList.TabIndex = 2;
             // 
             // txtList
             // 
-            this.txtList.BackColor = System.Drawing.Color.GhostWhite;
-            this.txtList.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtList.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtList.BackColor = System.Drawing.Color.OldLace;
+            this.txtList.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtList.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtList.ForeColor = System.Drawing.Color.Black;
-            this.txtList.Location = new System.Drawing.Point(9, 43);
+            this.txtList.Location = new System.Drawing.Point(10, 38);
             this.txtList.Margin = new System.Windows.Forms.Padding(2);
             this.txtList.Multiline = true;
             this.txtList.Name = "txtList";
-            this.txtList.Size = new System.Drawing.Size(213, 212);
+            this.txtList.Size = new System.Drawing.Size(326, 196);
             this.txtList.TabIndex = 6;
             this.txtList.Text = "尚未點餐";
             this.txtList.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -212,7 +215,7 @@
             this.btnClearList.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
             this.btnClearList.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnClearList.ForeColor = System.Drawing.Color.IndianRed;
-            this.btnClearList.Location = new System.Drawing.Point(116, 260);
+            this.btnClearList.Location = new System.Drawing.Point(230, 249);
             this.btnClearList.Name = "btnClearList";
             this.btnClearList.Size = new System.Drawing.Size(106, 37);
             this.btnClearList.TabIndex = 5;
@@ -223,12 +226,12 @@
             // labList
             // 
             this.labList.AutoSize = true;
-            this.labList.BackColor = System.Drawing.Color.LightGray;
-            this.labList.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labList.ForeColor = System.Drawing.Color.Maroon;
-            this.labList.Location = new System.Drawing.Point(5, 9);
+            this.labList.BackColor = System.Drawing.Color.Transparent;
+            this.labList.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labList.ForeColor = System.Drawing.Color.White;
+            this.labList.Location = new System.Drawing.Point(5, 10);
             this.labList.Name = "labList";
-            this.labList.Size = new System.Drawing.Size(86, 24);
+            this.labList.Size = new System.Drawing.Size(96, 26);
             this.labList.TabIndex = 0;
             this.labList.Text = "購物清單";
             // 
@@ -239,21 +242,22 @@
             this.panPay.Controls.Add(this.btnCreditCard);
             this.panPay.Controls.Add(this.btnCash);
             this.panPay.Controls.Add(this.labPay);
+            this.panPay.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.panPay.ForeColor = System.Drawing.Color.Transparent;
-            this.panPay.Location = new System.Drawing.Point(241, 149);
+            this.panPay.Location = new System.Drawing.Point(256, 149);
             this.panPay.Name = "panPay";
-            this.panPay.Size = new System.Drawing.Size(213, 165);
+            this.panPay.Size = new System.Drawing.Size(268, 177);
             this.panPay.TabIndex = 3;
             // 
             // labDiscount
             // 
             this.labDiscount.AutoSize = true;
             this.labDiscount.BackColor = System.Drawing.Color.Transparent;
-            this.labDiscount.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labDiscount.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.labDiscount.Location = new System.Drawing.Point(71, 140);
+            this.labDiscount.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labDiscount.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.labDiscount.Location = new System.Drawing.Point(91, 137);
             this.labDiscount.Name = "labDiscount";
-            this.labDiscount.Size = new System.Drawing.Size(137, 20);
+            this.labDiscount.Size = new System.Drawing.Size(162, 24);
             this.labDiscount.TabIndex = 2;
             this.labDiscount.Text = "信用卡享九折優惠";
             // 
@@ -264,9 +268,9 @@
             this.btnCreditCard.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
             this.btnCreditCard.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnCreditCard.ForeColor = System.Drawing.Color.IndianRed;
-            this.btnCreditCard.Location = new System.Drawing.Point(112, 71);
+            this.btnCreditCard.Location = new System.Drawing.Point(142, 78);
             this.btnCreditCard.Name = "btnCreditCard";
-            this.btnCreditCard.Size = new System.Drawing.Size(96, 43);
+            this.btnCreditCard.Size = new System.Drawing.Size(111, 43);
             this.btnCreditCard.TabIndex = 4;
             this.btnCreditCard.Text = "信用卡";
             this.btnCreditCard.UseVisualStyleBackColor = false;
@@ -279,9 +283,9 @@
             this.btnCash.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan;
             this.btnCash.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnCash.ForeColor = System.Drawing.Color.IndianRed;
-            this.btnCash.Location = new System.Drawing.Point(3, 71);
+            this.btnCash.Location = new System.Drawing.Point(12, 78);
             this.btnCash.Name = "btnCash";
-            this.btnCash.Size = new System.Drawing.Size(96, 43);
+            this.btnCash.Size = new System.Drawing.Size(114, 43);
             this.btnCash.TabIndex = 1;
             this.btnCash.Text = "現金";
             this.btnCash.UseVisualStyleBackColor = false;
@@ -290,12 +294,12 @@
             // labPay
             // 
             this.labPay.AutoSize = true;
-            this.labPay.BackColor = System.Drawing.Color.LightGray;
-            this.labPay.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labPay.ForeColor = System.Drawing.Color.Maroon;
-            this.labPay.Location = new System.Drawing.Point(3, 16);
+            this.labPay.BackColor = System.Drawing.Color.Transparent;
+            this.labPay.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labPay.ForeColor = System.Drawing.Color.White;
+            this.labPay.Location = new System.Drawing.Point(7, 16);
             this.labPay.Name = "labPay";
-            this.labPay.Size = new System.Drawing.Size(86, 24);
+            this.labPay.Size = new System.Drawing.Size(96, 26);
             this.labPay.TabIndex = 0;
             this.labPay.Text = "付款方式";
             this.labPay.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -305,7 +309,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.RosyBrown;
-            this.ClientSize = new System.Drawing.Size(707, 327);
+            this.ClientSize = new System.Drawing.Size(918, 348);
             this.Controls.Add(this.panPay);
             this.Controls.Add(this.panList);
             this.Controls.Add(this.panPrice);

@@ -43,7 +43,7 @@
             this.btnColor.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnColor.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnColor.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.btnColor.Location = new System.Drawing.Point(533, 20);
+            this.btnColor.Location = new System.Drawing.Point(689, 20);
             this.btnColor.Margin = new System.Windows.Forms.Padding(2);
             this.btnColor.Name = "btnColor";
             this.btnColor.Size = new System.Drawing.Size(81, 44);
@@ -56,7 +56,7 @@
             // 
             this.tbarSize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.tbarSize.LargeChange = 1;
-            this.tbarSize.Location = new System.Drawing.Point(569, 137);
+            this.tbarSize.Location = new System.Drawing.Point(725, 137);
             this.tbarSize.Margin = new System.Windows.Forms.Padding(2);
             this.tbarSize.Maximum = 100;
             this.tbarSize.Minimum = 1;
@@ -72,7 +72,7 @@
             // 
             this.txtColor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtColor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtColor.Location = new System.Drawing.Point(533, 80);
+            this.txtColor.Location = new System.Drawing.Point(689, 80);
             this.txtColor.Margin = new System.Windows.Forms.Padding(2);
             this.txtColor.Multiline = true;
             this.txtColor.Name = "txtColor";
@@ -86,7 +86,7 @@
             this.labSize.AutoSize = true;
             this.labSize.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labSize.ForeColor = System.Drawing.Color.Black;
-            this.labSize.Location = new System.Drawing.Point(575, 280);
+            this.labSize.Location = new System.Drawing.Point(731, 280);
             this.labSize.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labSize.Name = "labSize";
             this.labSize.Size = new System.Drawing.Size(18, 20);
@@ -107,7 +107,7 @@
             this.pnlCanvas.Location = new System.Drawing.Point(0, 0);
             this.pnlCanvas.Margin = new System.Windows.Forms.Padding(2);
             this.pnlCanvas.Name = "pnlCanvas";
-            this.pnlCanvas.Size = new System.Drawing.Size(627, 409);
+            this.pnlCanvas.Size = new System.Drawing.Size(783, 464);
             this.pnlCanvas.TabIndex = 4;
             this.pnlCanvas.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlCanvas_MouseDown);
             this.pnlCanvas.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pnlCanvas_MouseMove);
@@ -117,7 +117,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(627, 409);
+            this.ClientSize = new System.Drawing.Size(783, 464);
             this.Controls.Add(this.pnlCanvas);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmmyPaint";
