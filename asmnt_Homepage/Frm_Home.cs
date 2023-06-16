@@ -41,7 +41,6 @@ namespace asmnt_Homepage
             loan.TopLevel = false;
             sc2.Panel2.Controls.Add(loan);
             loan.Show();
-            
         }
         
         private void btnPOS_Click(object sender, EventArgs e)
