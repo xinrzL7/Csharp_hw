@@ -139,7 +139,7 @@ namespace asmnt_Homepage
                 MessageBox.Show("無法啟動小畫家：" + ex.Message);
             }
         }
-
+        
         private void btnGuess_Click(object sender, EventArgs e)
         {
             sc2.Panel2.Controls.Clear();
