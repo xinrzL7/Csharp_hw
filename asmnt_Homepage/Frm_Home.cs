@@ -151,7 +151,5 @@ namespace asmnt_Homepage
             sc2.Panel2.Controls.Add(mp);
             mp.Show();
         }
-
-       
     }
 }
