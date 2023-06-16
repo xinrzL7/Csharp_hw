@@ -312,7 +312,7 @@
             this.btnPOS.BackColor = System.Drawing.Color.Transparent;
             this.btnPOS.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnPOS.FlatAppearance.BorderSize = 0;
-            this.btnPOS.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnPOS.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Tan;
             this.btnPOS.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
             this.btnPOS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPOS.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

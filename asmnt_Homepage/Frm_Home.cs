@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.Security.Cryptography;
+using System.Runtime.InteropServices;
 
 namespace asmnt_Homepage
 {
@@ -40,6 +41,7 @@ namespace asmnt_Homepage
             loan.TopLevel = false;
             sc2.Panel2.Controls.Add(loan);
             loan.Show();
+            
         }
         
         private void btnPOS_Click(object sender, EventArgs e)
@@ -150,5 +152,7 @@ namespace asmnt_Homepage
             sc2.Panel2.Controls.Add(mp);
             mp.Show();
         }
+
+       
     }
 }

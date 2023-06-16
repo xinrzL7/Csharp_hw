@@ -72,5 +72,7 @@ namespace asmnt_Homepage
                 MessageBox.Show("請輸入數字！");
             }
         }
+
+       
     }
 }

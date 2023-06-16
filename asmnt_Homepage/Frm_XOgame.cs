@@ -30,7 +30,6 @@ namespace asmnt_Homepage
         }
         int nr = 0;
 
-        
         private void btn_Click(object sender, EventArgs e)
         {
             nr++;
